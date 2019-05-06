@@ -14,13 +14,11 @@ Authorization: Bearer
 ```
 {
     "status":-102, //code无效或过期
-    "message":"CODE无效！",
-    "data":{}
+    "message":"CODE无效！"
 }
 {
     "status":-101, //缺少code
-    "message":"用户登录需要凭证",
-    "data":{}
+    "message":"用户登录需要凭证"
 }
 {
     "status":1,
