@@ -1,16 +1,16 @@
 # 接口文档
-####除了登陆授权获取基本信息其他路由带上请求头
+#### 除了登陆授权获取基本信息其他路由带上请求头
 Authorization: Bearer
 ###
-##授权登陆获取基本信息
-####URL：/api/user/token
+## 授权登陆获取基本信息
+#### URL：/api/user/token
 ### POST
 ```
 {
     "code":"CODE"
 }
 ```
-####RETURN
+#### RETURN
 ```
 {
     "status":-102, //code无效或过期
