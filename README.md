@@ -33,7 +33,7 @@ Authorization: Bearer
 ## 获取用户基本信息
 #### URL /api/user/data
 ### GET
-#####request header 
+##### request header 
 Authorization: Bearer
 ### RETURN
 ```angular2
